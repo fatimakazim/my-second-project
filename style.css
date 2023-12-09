@@ -18,16 +18,16 @@ html, body {
     text-align: center;
     padding: 20px;
     color: #100404; /* Text color */
-    position: relative; /* Make the container relative for absolute positioning */
-    margin-bottom: 20px; /* Add margin to create space below the text */
-    background: url('landscape.png') center/cover no-repeat; /* Set the image as background */
+    position: relative; /*  container relative for absolute positioning */
+    margin-bottom: 20px; /* margin to create space below the text */
+    background: url('landscape.png') center/cover no-repeat; /*  image as background */
   }
   
   #header h1 {
     margin: 0; /* Remove default margin for h1 */
-    color: #ffff5c; /* Adjusted heading color to stand out */
-    font-size: 2em; /* Increased font size for emphasis */
-    font-weight: bold; /* Added bold font weight for emphasis */
+    color: #ffff5c; /* Adjusted heading color */
+    font-size: 2em; /* Increased font size */
+    font-weight: bold; /* Added bold */
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3); /* Subtle text shadow for highlight */
   }
   
@@ -48,7 +48,7 @@ html, body {
   /* Additional styles for paragraphs in the right section */
   .right p {
     margin-bottom: 15px;
-    line-height: 1.5; /* Improved readability with increased line height */
+    line-height: 1.5; /*  line height */
   }
   
   /* Additional styles for headings in the right section */
@@ -59,7 +59,7 @@ html, body {
     margin-bottom: 20px; /* Space below headings */
   }
   
-/* Additional styles for the Explore button */
+/* styles for the Explore button */
 .explore-button {
     display: block;
     margin: 20px auto; /* Center the button horizontally */
@@ -71,8 +71,8 @@ html, body {
     border-radius: 5px; /* Rounded corners */
     cursor: pointer;
     transition: background-color 0.3s ease; /* Smooth transition effect */
-    max-width: 50px; /* Set a maximum width for the button */
-    width: 100%; /* Make the button width 100% of the container */
+    max-width: 50px; /*  maximum width for the button */
+    width: 100%; /* button width 100% of the container */
   }
 
   .explore-button:hover {
